@@ -11,12 +11,13 @@ export default function () {
   // this.namespace = '';
   
   // Attempt 2
-  // this.passthrough('/**');
+  this.passthrough('/**');
 
   // Attempt 3
   // this.passthrough(`/markdown/markdown-file.md`);
 
   // Works, but it would be great not to be able to use a relative path
-  this.passthrough(`https://localhost:5200/markdown/markdown-file.md`);
+  // this.passthrough(`https://localhost:4200/markdown/markdown-file.md`);
+
   this.passthrough();
 }
